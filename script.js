@@ -16,7 +16,7 @@ const slides = [
     title: "Python Fundamentals Revision Deck",
     kicker: "Test Topics",
     lead: "Variables, Data Types, Basic I/O, Coding Fluency, and Data Structures.",
-    image: "test-topics.png",
+    image: "https://github.com/akhisweety01-hub/CLASS-2/blob/ffb8c86897798b09d84882853f446f2dc76d909c/test-topics.png",
     sections: [
       {
         kind: "points",
