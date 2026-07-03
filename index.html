@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Fundamentals Revision Deck</title>
+  <meta name="description" content="Interactive sideways revision slide deck for Python fundamentals.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="beam-canvas" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <div class="topic-progress">
+      <span id="current-topic">Python Fundamentals</span>
+      <span id="slide-counter">01 / 51</span>
+    </div>
+    <div class="made-by">Made by Yash</div>
+  </header>
+
+  <main class="deck-shell">
+    <nav class="topic-menu" id="topic-menu" aria-label="Topics"></nav>
+    <section class="deck" id="deck" aria-label="Revision slides"></section>
+  </main>
+
+  <div class="bottom-controls" aria-label="Slide controls">
+    <button class="icon-button" id="prev-slide" type="button" aria-label="Previous slide">&lt;</button>
+    <div class="progress-track" aria-hidden="true">
+      <span class="progress-fill" id="progress-fill"></span>
+    </div>
+    <button class="quiz-button" id="quiz-button" type="button">Quiz</button>
+    <button class="icon-button" id="next-slide" type="button" aria-label="Next slide">&gt;</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
