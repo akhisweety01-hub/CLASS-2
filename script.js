@@ -1596,7 +1596,8 @@ function setupInteractions() {
     button.textContent = answer.classList.contains("visible") ? "Hide answer" : "Reveal answer";
   });
 
-  quizButton.addEventListener("click", () => {
+  quizButton.addEventListener("click", (event) => {
+    event.preventDefault();
     const url = QUIZ_LINK.trim();
     if (!url) {
       showToast("Quiz link placeholder is empty in script.js line 2.");
