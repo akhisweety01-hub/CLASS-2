@@ -1,5 +1,5 @@
 // Paste your quiz page URL between the quotes below.
-const QUIZ_LINK = "";
+const QUIZ_LINK = "https://akhisweety01-hub.github.io/QUIZ-TEXT/";
 
 const topicMeta = [
   { name: "Variables", slug: "variables" },
